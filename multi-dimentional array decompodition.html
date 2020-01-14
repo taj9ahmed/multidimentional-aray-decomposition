@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1 >multi-dimentional array decomposition</h1>
+    <h4 id="output"></h4>
+    <script>
+
+    // var input = prompt("enter input ");
+    // arr = input.split("");
+
+    var arr=[[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+    
+    function print_array(arr) {
+      // console.log(arr);
+      for ( let ndx1 = 0; ndx1 < arr.length; ndx1++) {
+        console.log(" row "+ ndx1);
+        for ( let ndx2 = 0; ndx2 < arr[ndx1].length; ndx2++) {
+          console.log(arr[ndx1][ndx2]);
+        }
+      }
+      
+      
+    } //end function 
+print_array(arr);
+    </script>
+  </body>
+
+</html>
